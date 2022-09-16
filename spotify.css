@@ -1,0 +1,44 @@
+.headerSection {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.headerImage img{
+    width: 10%;
+ 
+}
+.listaMenu {
+    display: flex;
+    flex-direction:row;
+    
+}
+.MenuEsquerda {
+list-style-type: none;
+display: flex;
+flex-direction: row;
+}
+ .MenuEsquerda li {
+    padding-left: 15px;
+ }
+
+ .hero-image {
+    background-image: url(/images/landing.jpg);
+    width: auto;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.herotext {
+    color: white;
+    text-align: center;
+    align-items: center;
+    width: 350px;
+    
+}
